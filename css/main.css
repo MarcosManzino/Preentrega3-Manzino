@@ -1,2 +1,7 @@
-div {
+.header {
   background-color: #a788ab89; }
+  .header .header__foto-logo {
+    height: 100px; }
+  .header .header_foto-perfil {
+    height: 100px;
+    border-radius: 100px; }
