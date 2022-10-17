@@ -1,0 +1,13 @@
+.aside{
+    background-color: $color;
+    .aside__contenedor{
+        margin: 5px;
+        padding: 0px;
+        .aside__foto-perfil{
+            height: 50px;
+            border-radius: 30px;
+            border: $borde;
+            margin: 5px;
+        }
+    }
+}
