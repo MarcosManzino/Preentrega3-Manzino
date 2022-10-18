@@ -1,8 +1,10 @@
 .main{
     .main__contenedor{
         .main__contenedro-libros{
+            margin: 5px;
             .main__imagenes{
                 height: $f;
+                width: $f/1.5;
                 border-radius: 50px;
             }
         }

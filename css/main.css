@@ -8,9 +8,12 @@
   .header .navbar-nav .nav-link:hover {
     transform: scale(1.1); }
 
-.main .main__contenedor .main__contenedro-libros .main__imagenes {
-  height: 30rem;
-  border-radius: 50px; }
+.main .main__contenedor .main__contenedro-libros {
+  margin: 5px; }
+  .main .main__contenedor .main__contenedro-libros .main__imagenes {
+    height: 30rem;
+    width: 20rem;
+    border-radius: 50px; }
 
 .aside, .offcanvas {
   background-color: #a788ab89; }
@@ -52,6 +55,10 @@ body {
       grid-area: aside; }
     body .contenedor1 .footer {
       grid-area: footer; }
+  body .contenedor {
+    display: grid;
+    min-height: 99.7vh;
+    grid-template-areas: "header" "main" "footer"; }
 
 .h2, .h1 {
   text-align: center;
