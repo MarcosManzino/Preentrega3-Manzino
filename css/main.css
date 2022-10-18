@@ -74,3 +74,10 @@ body {
   margin: 0px 15px;
   font-size: 20px;
   text-align: center; }
+
+.footer {
+  background-color: #a788ab89; }
+  .footer div img {
+    height: 100px; }
+  .footer .footer__contacto {
+    width: 40%; }
