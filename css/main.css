@@ -26,14 +26,14 @@
       border: solid black 2px;
       margin: 5px; }
 
-.bt {
+.bt, .main section figure figcaption .compra {
   background-color: #a788ab89;
   border: solid black 2px;
-  padding: 15px 40px;
+  padding: 8px 40px;
   margin: 10px;
   border-radius: 20px;
   font-size: 20px; }
-  .bt:hover {
+  .bt:hover, .main section figure figcaption .compra:hover {
     transform: scale(1.1); }
 
 body {
@@ -89,6 +89,45 @@ body {
   .footer .footer__contacto {
     width: 40%; }
 
-.main section figure figcaption .compra {
-  background-color: #a788ab67;
-  border-radius: 20px; }
+.main .collapse .card {
+  background-color: #a788ab89; }
+
+.main .formap {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center; }
+  .main .formap form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center; }
+    .main .formap form .form__input {
+      width: 100%;
+      padding: 1.5rem 6rem;
+      border: 0.3rem solid #001d6d;
+      border-radius: 3rem;
+      background-color: #f6f6f634;
+      margin: 1rem 0;
+      display: inline-block; }
+    .main .formap form .form__botones {
+      width: 100%; }
+      .main .formap form .form__botones input {
+        padding: 1.5rem 3rem; }
+  .main .formap .formap__iframe {
+    background-color: #0044ff;
+    padding: 0.4rem;
+    border-radius: 100px; }
+
+main .perfil__figure {
+  margin: 20px; }
+  main .perfil__figure img {
+    height: 400px; }
+
+main .perfil p {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  text-align: center;
+  font-size: 1.5rem; }

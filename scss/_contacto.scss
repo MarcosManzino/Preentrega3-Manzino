@@ -1,0 +1,43 @@
+.main{
+    .collapse{
+        .card{
+            background-color: $color;
+        }
+    }
+    .formap{
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        form{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            align-content: center;
+            .form__input{
+                width: 100%;
+                padding: 1.5rem 6rem;
+                border: 0.3rem solid #001d6d;
+                border-radius: 3rem;
+                background-color: #f6f6f634;
+                margin: 1rem 0;
+                display: inline-block;
+            
+            }
+            .form__botones{
+                width: 100%;
+                input{
+                    
+                    padding: 1.5rem 3rem;
+                }
+            
+            }
+        }
+        .formap__iframe {
+            background-color: #0044ff;
+            padding: 0.4rem;
+            border-radius: 100px;
+        }
+    }
+}

@@ -14,7 +14,7 @@
 .bt {
     background-color: $color;
     border: $borde;
-    @include esp(15px 40px, 10px);
+    @include esp(8px 40px, 10px);
     border-radius: 20px;
     font-size: 20px;
     &:hover{

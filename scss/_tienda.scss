@@ -3,8 +3,7 @@
         figure{
             figcaption{
                 .compra{
-                    background-color: #a788ab67;
-                    border-radius: 20px;
+                    @extend .bt
                 }
             }
         }
