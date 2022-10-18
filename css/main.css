@@ -5,21 +5,33 @@
   .header .header_foto-perfil {
     height: 100px;
     border-radius: 100px; }
+  .header .navbar-nav .nav-link:hover {
+    transform: scale(1.1); }
 
 .main .main__contenedor .main__contenedro-libros .main__imagenes {
   height: 30rem;
   border-radius: 50px; }
 
-.aside {
+.aside, .offcanvas {
   background-color: #a788ab89; }
-  .aside .aside__contenedor {
+  .aside .aside__contenedor, .offcanvas .aside__contenedor {
     margin: 5px;
     padding: 0px; }
-    .aside .aside__contenedor .aside__foto-perfil {
+    .aside .aside__contenedor .aside__foto-perfil, .offcanvas .aside__contenedor .aside__foto-perfil {
       height: 50px;
       border-radius: 30px;
       border: solid black 2px;
       margin: 5px; }
+
+.bt {
+  background-color: #a788ab89;
+  border: solid black 2px;
+  padding: 15px 40px;
+  margin: 10px;
+  border-radius: 20px;
+  font-size: 20px; }
+  .bt:hover {
+    transform: scale(1.1); }
 
 body {
   background-image: url(../img/fondo.png);
@@ -36,16 +48,26 @@ body {
       grid-column-end: -1; }
     body .contenedor1 .main {
       grid-area: main; }
-    body .contenedor1 .aside {
+    body .contenedor1 .aside, body .contenedor1 .offcanvas {
       grid-area: aside; }
     body .contenedor1 .footer {
       grid-area: footer; }
 
-.h2 {
+.h2, .h1 {
   text-align: center;
   font-size: 25px;
   border: solid black 2px;
   background-color: #a788ab; }
+
+.h1 {
+  background-image: url(../img/fondotitulo.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 100px 200px;
+  background-color: rgba(255, 255, 255, 0);
+  border: 0px;
+  font-family: 'Amatic SC'  , cursive;
+  font-size: 70px; }
 
 .texto {
   list-style: none;

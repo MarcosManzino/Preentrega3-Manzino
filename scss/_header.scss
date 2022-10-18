@@ -7,4 +7,12 @@
             height: $s;
             border-radius: 100px;
         }
+        .navbar-nav{
+            .nav-link{
+        
+                &:hover{
+                    transform: scale(1.1);
+                }
+            }
+        }
 }

@@ -4,6 +4,9 @@ $borde: solid black 2px;
 $ss: 50px;
 $s: 100px;
 $f: 30rem;
-
+@mixin esp ($tam, $esp){
+    padding: $tam;
+    margin: $esp;
+}
 
 
