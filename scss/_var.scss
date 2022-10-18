@@ -4,11 +4,27 @@ $borde: solid black 2px;
 $ss: 50px;
 $s: 100px;
 $f: 30rem;
-@mixin esp ($tam, $esp){
+$ff: 15rem;
+
+@mixin esp ($tam, $esp) {
     padding: $tam;
     margin: $esp;
 }
 
+@mixin mq-1330px {
+    @media (max-width: 1330px) {
+        @content;
+    }
+}
 
+@mixin mq-900px {
+    @media (max-width: 900px) {
+        @content;
+    }
+}
 
-
+@mixin mq-510px {
+    @media (max-width: 510px) {
+        @content;
+    }
+}

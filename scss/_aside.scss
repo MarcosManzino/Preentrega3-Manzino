@@ -1,9 +1,11 @@
-.aside{
+.aside {
     background-color: $color;
-    .aside__contenedor{
+
+    .aside__contenedor {
         margin: 5px;
         padding: 0px;
-        .aside__foto-perfil{
+
+        .aside__foto-perfil {
             height: 50px;
             border-radius: 30px;
             border: $borde;
@@ -11,18 +13,20 @@
         }
     }
 }
+
 .bt {
     background-color: $color;
     border: $borde;
     @include esp(8px 40px, 10px);
     border-radius: 20px;
     font-size: 20px;
-    &:hover{
+
+    &:hover {
         transform: scale(1.1)
     }
 
 }
 
-.offcanvas{
+.offcanvas {
     @extend .aside;
 }

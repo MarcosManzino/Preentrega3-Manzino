@@ -1,17 +1,27 @@
-main{
-    .perfil__figure{
+main {
+    .perfil__figure {
         margin: 20px;
-        img{
+
+        img {
             height: 400px;
+
+            @include mq-900px {
+                height: 200px;
+            }
         }
     }
-    .perfil{
-        p{   
+
+    .perfil {
+        p {
             margin-left: auto;
             margin-right: auto;
             width: 90%;
             text-align: center;
             font-size: 1.5rem;
+
+            @include mq-900px {
+                font-size: 1rem;
+            }
         }
     }
 }

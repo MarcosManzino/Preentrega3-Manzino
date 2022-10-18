@@ -1,42 +1,59 @@
-body{
+body {
     background-image: url(../img/fondo.png);
     background-color: $fondo;
     margin: 0px;
-        .contenedor1{
-            display: grid;
-            min-height: 99.7vh;
-            grid-template-columns: 10% 90%;
-        
-             grid-template-areas: 
+
+    .contenedor1 {
+        display: grid;
+        min-height: 99.7vh;
+        grid-template-columns: 10% 90%;
+
+        grid-template-areas:
             "header header   "
             "aside main  "
             "aside footer  "
-            ;
-            .header{
-                grid-area: header;
-                grid-column-start: 1;
-                grid-column-end: -1;
-            }
-            .main{
-                
-                grid-area: main;
-            }
-            .aside{
-                grid-area: aside;
-            }
-            .footer{
-                grid-area: footer;
-            } 
+        ;
+
+        .header {
+            grid-area: header;
+            grid-column-start: 1;
+            grid-column-end: -1;
         }
-        .contenedor{
-            display: grid;
+
+        .main {
+
+            grid-area: main;
+        }
+
+        .aside {
+            grid-area: aside;
+        }
+
+        .footer {
+            grid-area: footer;
+        }
+
+        @include mq-1330px {
             min-height: 99.7vh;
-            
-        
-             grid-template-areas: 
+            grid-template-columns: 100%;
+
+            grid-template-areas:
+                "header"
+                "main"
+                "footer"
+            ;
+        }
+    }
+
+    .contenedor {
+        display: grid;
+        min-height: 99.7vh;
+
+
+        grid-template-areas:
             "header"
             "main"
             "footer"
-            ;
-        }
- }
+        ;
+    }
+}

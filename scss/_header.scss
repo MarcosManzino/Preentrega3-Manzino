@@ -1,18 +1,29 @@
-.header{
+.header {
     background-color: $color;
-        .header__foto-logo{
-            height: $s;
+
+    .header__foto-logo {
+        height: $s;
+
+        @include mq-510px {
+            height: $ss;
         }
-        .header_foto-perfil{
-            height: $s;
-            border-radius: 100px;
+    }
+
+    .header_foto-perfil {
+        height: $s;
+        border-radius: 100px;
+
+        @include mq-510px {
+            height: $ss;
         }
-        .navbar-nav{
-            .nav-link{
-        
-                &:hover{
-                    transform: scale(1.1);
-                }
+    }
+
+    .navbar-nav {
+        .nav-link {
+
+            &:hover {
+                transform: scale(1.1);
             }
         }
+    }
 }

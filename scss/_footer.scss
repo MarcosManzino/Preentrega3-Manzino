@@ -1,11 +1,39 @@
-.footer{
+.footer {
+    display: flex;
+    justify-content: space-between;
     background-color: $color;
-    div{
-        img{
+
+    @include mq-900px {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
             height: $s;
+
+            @include mq-510px {
+                height: 80px;
+
+            }
+
         }
     }
-    .footer__contacto{
+
+    .footer__contacto {
         width: 40%;
+
+        @include mq-900px {
+            width: 80%;
+        }
+
+        @include mq-510px {
+            display: none !important;
+
+        }
     }
 }

@@ -1,21 +1,28 @@
-.main{
-    .collapse{
-        .card{
+.main {
+    .collapse {
+        .card {
             background-color: $color;
         }
     }
-    .formap{
+
+    .formap {
         width: 90%;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
-        form{
+
+        @include mq-1330px {
+            flex-direction: column;
+        }
+
+        form {
             display: flex;
             flex-direction: column;
             align-items: center;
             align-content: center;
-            .form__input{
+
+            .form__input {
                 width: 100%;
                 padding: 1.5rem 6rem;
                 border: 0.3rem solid #001d6d;
@@ -23,17 +30,19 @@
                 background-color: #f6f6f634;
                 margin: 1rem 0;
                 display: inline-block;
-            
             }
-            .form__botones{
+
+            .form__botones {
                 width: 100%;
-                input{
-                    
+
+                input {
+
                     padding: 1.5rem 3rem;
                 }
-            
+
             }
         }
+
         .formap__iframe {
             background-color: #0044ff;
             padding: 0.4rem;
