@@ -39,3 +39,167 @@
         font-size: 13px;
     }
 }
+
+// anim
+@keyframes boton {
+    0% {
+        transform: scale(1.0) rotate(0deg) translatey(-0px);
+    }
+
+    10% {
+        transform: scale(1.11) rotate(-3deg) translatey(-15px);
+    }
+
+    20% {
+        transform: scale(1.12) rotate(3deg) translatey(15px);
+    }
+
+    30% {
+        transform: scale(1.13) rotate(-3deg) translatey(-15px);
+    }
+
+    40% {
+        transform: scale(1.14) rotate(3deg) translatey(15px);
+    }
+
+    50% {
+        transform: scale(1.15) rotate(-2deg) translatey(-15px);
+    }
+
+    60% {
+        transform: scale(1.16) rotate(2deg) translatey(15px);
+    }
+
+    70% {
+        transform: scale(1.17) rotate(-1deg) translatey(-15px);
+    }
+
+    80% {
+        transform: scale(1.18) rotate(1deg) translatey(-15px);
+    }
+
+    90% {
+        transform: scale(1.19) rotate(-1deg) translatey(-15px);
+    }
+
+    100% {
+        transform: scale(1.2) rotate(0deg) translatey(-0px);
+    }
+}
+
+@keyframes entradax {
+    0% {
+        transform: translatex(200vh);
+    }
+
+    100% {
+        transform: translatex(-0vh);
+    }
+}
+
+@keyframes entradaxx {
+    0% {
+        transform: translatex(-200vh);
+    }
+
+    100% {
+        transform: translatex(-0vh);
+    }
+}
+
+@keyframes entraday {
+    0% {
+        transform: translatey(-200vh);
+    }
+
+    100% {
+        transform: translatey(-0vh);
+    }
+}
+
+@keyframes entradayy {
+    0% {
+        transform: translatey(200vh);
+    }
+
+    100% {
+        transform: translatey(-0vh);
+    }
+}
+
+@keyframes slcle {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes der {
+    0% {
+        transform: translatey(-100vh);
+    }
+
+    100% {
+        transform: translatey(-0vh);
+    }
+}
+
+@keyframes izq {
+    0% {
+        transform: translatex(200vh);
+    }
+
+    100% {
+        transform: translatey(-0vh);
+    }
+}
+
+@keyframes ap {
+    0% {
+        transform: translatey(200vh);
+    }
+
+    100% {
+        transform: translatey(-0vh);
+    }
+}
+
+/* anim */
+.contenedor1 {
+    .header-anim {
+        animation: entraday 2s both;
+    }
+
+    .main-anim {
+        animation: entradax 3s both;
+    }
+
+    .aside-anim {
+        animation: entradaxx 4s both;
+    }
+
+    .footer-anim {
+        animation: entradayy 4s both;
+    }
+
+    .header__animlog {
+        animation: der 4s 3s both;
+    }
+
+    .header__navlog {
+        animation: izq 4s 2s both;
+    }
+
+    .aside__contanim {
+        animation: ap 4s 2s both;
+    }
+
+    .main__titulo {
+        animation: slcle 3s 2s both;
+    }
+}
+
+/* anim */
