@@ -14,7 +14,7 @@
         align-items: center;
 
         img {
-            height: $s;
+            height: $s/2;
 
             @include mq-510px {
                 height: 80px;
