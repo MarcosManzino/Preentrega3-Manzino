@@ -1,7 +1,8 @@
 .main {
     .main__contenedor {
         .main__contenedro-libros {
-            margin: 5px;
+            margin: 25px 10px;
+
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -25,6 +26,7 @@
 }
 
 .contenedor1 {
+    overflow:hidden;
     button {
         display: none;
 

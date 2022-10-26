@@ -7,11 +7,14 @@
         flex-direction: column;
         align-items: center;
     }
-
+    .p{
+        margin: auto;
+    }
     div {
         display: flex;
         justify-content: center;
         align-items: center;
+      
 
         img {
             height: $s/2;
@@ -23,7 +26,7 @@
 
         }
     }
-
+ 
     .footer__contacto {
         width: 40%;
 
