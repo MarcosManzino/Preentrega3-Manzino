@@ -27,6 +27,19 @@
         }
     }
 }
+.accordion{
+    --bs-accordion-bg: rgba(255, 255, 255, 0.079);
+    --bs-accordion-border-color: rgba(0, 0, 0, 0.243);
+}
+
+
+.accordion-button:not(.collapsed){
+    background-color: $color;
+    color: rgb(13, 7, 108);
+}
+.card{
+    --bs-card-bg: #a788ab8a;
+}
 
 .texto {
     list-style: none;
