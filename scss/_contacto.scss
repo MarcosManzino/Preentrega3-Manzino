@@ -25,11 +25,16 @@
             .form__input {
                 width: 100%;
                 padding: 1.5rem 6rem;
-                border: 0.3rem solid #001d6d;
+                border: 0.3rem solid #a788abec;
                 border-radius: 3rem;
                 background-color: #f6f6f661;
                 margin: 1rem 0;
                 display: inline-block;
+                &::placeholder{
+                    color: rgb(73, 73, 73);
+                    font-weight: 400;
+                }
+              
             }
 
             .form__botones {
@@ -38,13 +43,14 @@
                 input {
 
                     padding: 1.5rem 3rem;
+                   
                 }
 
             }
         }
 
         .formap__iframe {
-            background-color: #0044ff;
+            background-color: #a788abec;
             padding: 0.4rem;
             border-radius: 100px;
         }
