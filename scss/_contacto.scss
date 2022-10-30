@@ -53,7 +53,9 @@
             background-color: #a788abec;
             padding: 0.4rem;
             border-radius: 100px;
-         
+            @include mq-900px {
+                width: 95%;
+            }
         }
     }
 }

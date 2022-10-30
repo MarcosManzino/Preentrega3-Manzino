@@ -298,6 +298,9 @@ body {
     background-color: #a788abec;
     padding: 0.4rem;
     border-radius: 100px; }
+    @media (max-width: 900px) {
+      .main .formap .formap__iframe {
+        width: 95%; } }
 
 main .perfil__figure {
   margin: 20px; }
